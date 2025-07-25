@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #f4f4f4;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.navbar-link:hover {
+  color: #007BFF;
+}
+
+.navbar-button {
+  padding: 10px 20px;
+  background-color: #06c930;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.navbar-button:hover {
+  background-color: #0056b3;
+}
+body {
+  background-color: rgb(241, 239, 239);
+}
+.Community {
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+< align img src="./assets/Group 1.svg" alt="Community Logo" class="community-logo">
+.community-header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.community-text {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.frame-4 {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex: 1;
+  min-width: 250px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
